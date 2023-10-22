@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:ital,wght@1,300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Nosifer&family=Poppins:ital,wght@1,300;1,700&display=swap');
+
+
+ 
+ *{
+
+    margin: 0;
+    padding: 0;
+ }
+ body{
+   width: 1300px;
+   height: 100%;
+   overflow-x: hidden;
+ }
+
+ #top{
+    width:1300px;
+    height: 60px;
+    background-color:#060125;
+    
+ }
+
+ #tophalf{
+    width: 650px;
+    height: 60px;
+    background-color:#060125;
+    float: left;
+    
+ }
+
+ .icon{
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 10px ;
+    padding-top: 18px;
+    
+    
+ }
+ #secondtop input{
+    color: aliceblue;
+  position: relative;
+  left: 250px;
+  top: 20px;
+    
+ }
+ #secondicon{
+
+position: relative;
+left:225px;
+top: 20px;
+color: aliceblue;
+
+ }
+ #button2 button{
+   position: relative;
+   left: 500px;
+   width: 70px;
+   height: 25px;
+   bottom: 3px;
+   border-radius: 10px;
+   background-color: green;
+   color: aliceblue;
+   font-size: 15px;
+   
+ }
+ 
+
+ #navbar{
+    width: 1300px;
+    height: 50px;
+    background-color: black;
+    position: sticky;
+    top:0;
+     
+   
+    
+ }
+
+ #image{
+    width: 1300px;
+    height: 620px;
+    background-color: aqua;
+ }
+
+ #bottom{
+    width: 1300px;
+    height:50px ;
+    background-color:#060225;
+    
+ }
+ 
+ #image img{
+    width: 1300px;
+    height: 620px;
+    position: absolute;
+ }
+ nav{
+    text-align: left;
+    padding-top: 7px;
+    
+    
+
+ }
+ 
+nav ul {
+   width: 1300px;
+   height: 60px;
+   display: inline-block;
+  background-color: black;
+  
+  
+   
+  
+
+}
+ 
+ nav ul li {
+   
+    
+    float: left;
+    display: block;
+    border-right: 1px solid white;
+    padding-right: 5px;
+    transform: skew(-25deg);
+   
+    
+    
+    
+    
+    
+    
+ }
+ nav ul li a{
+    text-decoration: none;
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(243, 229, 229);
+  display: block;
+   font-weight: 1000;
+    font-size: 18px;
+   transform: skew(25deg);
+   text-transform: uppercase;
+   
+
+
+}
+
+  nav  ul  :hover{
+    background-color:rgb(87, 17, 250);
+    color:rgb(223, 247, 10);
+ }
+ 
+ 
+ 
+ 
+ form{
+   width: 400px;
+   height: 400px;
+   position: relative;
+   top: 110px;
+   left: 60px;
+   color: aliceblue;
+   background: rgb(245, 241, 242,0.07);
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   
+   
+ }
+ form a{
+   text-decoration: none;
+   color: aliceblue;
+   padding-top: 38px;
+   font-size: large;
+   padding-left: 140px;
+
+ }
+
+  form h1{
+     text-align: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ form label{
+   font-size: large;
+   padding-top: 25px;
+   padding-left: 20px;
+ }
+ form input{
+   height: 25px;
+   padding-top: 10px;
+   font-size: large;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   color: aliceblue;
+   border-bottom: 1px solid white;
+   position: relative;
+   left: 18px;
+   width: 80%;
+   
+ }
+
+ form button{
+   width: 150px;
+   height: 35px;
+   position: relative;
+   top: 34px;
+   left: 30%;
+   background-color: green;
+   color: aliceblue;
+   font-size: large;
+   border-radius: 10px;
+   
+ }
+ #imagetext{
+
+   color:white;
+   position: relative;
+   left: 800px;
+   bottom: 250px;
+   
+ }
+ #imagetext h1{
+   font-family: 'Nosifer', sans-serif;
+ }
+ #bottom h5{
+   color: aliceblue;
+   
+   padding-top: 20px;
+   padding-left: 500px;
+   
+ }
+ 
